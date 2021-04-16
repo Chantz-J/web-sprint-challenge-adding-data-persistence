@@ -8,7 +8,7 @@ server.use(express.json())
 //Routes
 
 server.get('/', (req, res) => {
-    res.status(200).json('Recipe  server (web sprint challenge) up and running! 😉 Head over to /api to get started!')
+    res.status(200).json('Server (web sprint challenge) up and running! 😉 Head over to /api to get started!')
 })
 server.get('/api', (req, res) => {
     res.status(200).json(`Welcome to the API!`)
